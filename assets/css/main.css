@@ -1,0 +1,362 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main #addSecOne {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #addSecOne .container .containerOne .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #addSecOne .container .containerOne .content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  background-color: aliceblue;
+  border: 1px solid gray;
+  width: 300px;
+  padding: 20px;
+}
+main #addSecOne .container .containerOne .content form h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+main #addSecOne .container .containerOne .content form input {
+  outline: none;
+  border: 2px solid black;
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+}
+main #addSecOne .container .containerOne .content form button {
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  width: 140px;
+  height: 40px;
+}
+
+footer {
+  background-color: #222222;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec .container .containerOne .contentOne {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentOne h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentOne p {
+  color: #777777;
+}
+footer #footerSec .container .containerOne .contentTwo {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentTwo h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentTwo p {
+  color: #777777;
+}
+footer #footerSec .container .containerOne .contentTwo form {
+  display: flex;
+}
+footer #footerSec .container .containerOne .contentTwo form input {
+  background-color: #191919;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  height: 35px;
+}
+footer #footerSec .container .containerOne .contentTwo form button {
+  background-color: #ff268b;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 35px;
+  color: white;
+  width: 40px;
+}
+footer #footerSec .container .containerOne .contentThree {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentThree h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentThree .footerImg .content {
+  padding: 10px;
+}
+footer #footerSec .container .containerOne .contentFour {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentFour h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentFour p {
+  color: #777777;
+}
+footer #footerSec .container .containerOne .contentFour .icons {
+  gap: 20px;
+  display: flex;
+}
+footer #footerSec .container .containerOne .contentFour .icons i {
+  color: white;
+  font-size: 14px;
+}
+footer #footerSec .container .containerTwo {
+  padding: 65px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec .container .containerTwo .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec .container .containerTwo .content p {
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #222222;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec .container .containerOne .contentOne {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentOne h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentOne p {
+  color: #777777;
+}
+footer #footerSec .container .containerOne .contentTwo {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentTwo h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentTwo p {
+  color: #777777;
+}
+footer #footerSec .container .containerOne .contentTwo form {
+  display: flex;
+}
+footer #footerSec .container .containerOne .contentTwo form input {
+  background-color: #191919;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  height: 35px;
+}
+footer #footerSec .container .containerOne .contentTwo form button {
+  background-color: #ff268b;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 35px;
+  color: white;
+  width: 40px;
+}
+footer #footerSec .container .containerOne .contentThree {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentThree h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentThree .footerImg .content {
+  padding: 10px;
+}
+footer #footerSec .container .containerOne .contentFour {
+  display: flex;
+  flex-direction: column;
+}
+footer #footerSec .container .containerOne .contentFour h2 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer #footerSec .container .containerOne .contentFour p {
+  color: #777777;
+}
+footer #footerSec .container .containerOne .contentFour .icons {
+  gap: 20px;
+  display: flex;
+}
+footer #footerSec .container .containerOne .contentFour .icons i {
+  color: white;
+  font-size: 14px;
+}
+footer #footerSec .container .containerTwo {
+  padding: 65px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec .container .containerTwo .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footerSec .container .containerTwo .content p {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  main #homeSecOne .container .containerOne .contentOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #homeSecOne .container .containerOne .contentOne img {
+    width: 200px;
+    height: 150px;
+  }
+  main #homeSecOne .container .contentTwo h2 {
+    font-size: 50px;
+    color: white;
+  }
+  main #homeSecOne .container .contentTwo h2 span {
+    font-size: 18px;
+  }
+  main #homeSecOne .container .contentTwo h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  main #homeSecOne .container .contentTwo button {
+    border-radius: 20px;
+    border: none;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  main #homeSecOne .container .contentTwo button:hover {
+    transition: 0.4s;
+    background-color: #bd0052;
+    color: white;
+  }
+  main #homeSecFive {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #homeSecFive .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main #homeSecFive .container .containerOne .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main #homeSecFive .container .containerOne .content h2 {
+    font-size: 36px;
+    color: #222222;
+  }
+  main #homeSecFive .container .containerOne .content p {
+    color: #777777;
+  }
+  main #homeSecFive .container .containerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #homeSecFive .container .containerTwo .contentOne {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  main #homeSecFive .container .containerTwo .contentTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+  main #homeSecFive .container .containerTwo .contentTwo .datas {
+    display: flex;
+    gap: 20px;
+  }
+  main #homeSecFive .container .containerTwo .contentTwo .datas .data h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff268b;
+  }
+  main #homeSecFive .container .containerTwo .contentTwo .datas .data p {
+    font-size: 12px;
+    color: #777777;
+  }
+}
+@media (max-width: 600px) {
+  main #homeSecOne .container .containerOne .contentTwo h1 {
+    font-size: 25px;
+  }
+}

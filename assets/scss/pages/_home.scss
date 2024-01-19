@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+footer{
+    background-color: #222222;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #footerSec{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+      .container{
+        .containerOne{
+            .contentOne{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+
+                }
+                p{
+                    color: #777777;
+                   
+
+                }
+            }
+            .contentTwo{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    color: #777777;
+                }
+                form{
+                    display: flex;
+                    input{
+                        background-color: #191919;
+                        outline: none;
+                        border: none;
+                        padding-left: 15px;
+                        height: 35px;
+                    }
+                    button{
+                        background-color: #ff268b;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        height: 35px;
+                        color: white;
+                        width: 40px;
+                    }
+                }
+            }
+            .contentThree{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                .footerImg{
+                    .content{
+                        padding: 10px;
+                    }
+                }
+            }
+            .contentFour{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    color: #777777;
+                }
+                .icons{
+                    gap: 20px;
+display: flex;  
+                    i{
+                        color: white;
+
+font-size: 14px;
+                  }
+                }
+            }
+        }
+        .containerTwo{
+            padding: 65px 0;
+            display: flex;
+                justify-content: center;
+                align-items: center;
+            .content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: white;
+                }
+            }
+        }
+      }  
+    }
+}
+
+@media(max-width: 600px) {
+    main{
+        #homeSecOne{
+            .container{
+                .containerOne{
+                    .contentOne{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                            width: 200px;
+                            height: 150px;
+                        }
+                    }
+                }
+                .contentTwo {
+                    
+                    h2 {
+                        span {
+                            font-size: 18px;
+                        }
+
+                        font-size: 50px;
+                        color: white;
+                    }
+
+                    h1 {
+                        color: white;
+                        font-size: 20px;
+                        font-weight: 700;
+                        
+                    }
+
+                    button {
+                        border-radius: 20px;
+                        border: none;
+                        width: 170px;
+                        height: 40px;
+
+                        font-size: 14px;
+                        font-weight: 600;
+                        outline: none;
+                        cursor: pointer;
+                        transition: 0.4s;
+                    }
+
+                    button:hover {
+                        transition: 0.4s;
+                        background-color: #bd0052;
+                        color: white;
+                    }
+                }
+            }
+        }
+        #homeSecFive {
+            padding: 100px 0;
+            display: flex;
+                justify-content: center;
+                align-items: center;
+    
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+                .containerOne {
+                    .content {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+    
+                        h2 {
+                            font-size: 36px;
+                            color: #222222;
+                        }
+    
+                        p {
+                            color: #777777;
+                        }
+                    }
+                }
+    
+                .containerTwo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .contentOne{
+                        display: none;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .contentTwo {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: end;
+                      
+    
+                        .datas {
+                            display: flex;
+                            gap: 20px;
+                            
+    
+                            .data {
+                                
+                                h2 {
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                    color: #ff268b;
+                                }
+    
+                                p {
+                                    font-size: 12px;
+                                    color: #777777;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media(max-width: 600px){
+    main #homeSecOne .container .containerOne .contentTwo h1{
+        font-size: 25px;
+    }
+}

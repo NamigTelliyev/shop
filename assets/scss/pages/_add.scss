@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    #addSecOne{
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .container{
+            .containerOne{
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    form{display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        gap: 20px;
+                        background-color: aliceblue;
+                        border: 1px solid gray;
+                        width: 300px;
+                        padding: 20px;
+                        h2{
+font-size: 30px;
+font-weight: 600;
+                        }
+                        input{
+                            outline: none;
+                            border: 2px solid black;
+                            width: 250px;
+                            height: 40px;
+                            padding-left: 10px;
+                        }
+                        button{
+                            cursor: pointer;
+                            transition: 0.4s;
+                            outline: none;
+                            border: 2px solid black;
+                            background-color: white;
+                            color: black;
+                            width: 140px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+footer{
+    background-color: #222222;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #footerSec{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+      .container{
+        .containerOne{
+            .contentOne{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+
+                }
+                p{
+                    color: #777777;
+                   
+
+                }
+            }
+            .contentTwo{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    color: #777777;
+                }
+                form{
+                    display: flex;
+                    input{
+                        background-color: #191919;
+                        outline: none;
+                        border: none;
+                        padding-left: 15px;
+                        height: 35px;
+                    }
+                    button{
+                        background-color: #ff268b;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        height: 35px;
+                        color: white;
+                        width: 40px;
+                    }
+                }
+            }
+            .contentThree{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                .footerImg{
+                    .content{
+                        padding: 10px;
+                    }
+                }
+            }
+            .contentFour{
+                display: flex;
+                flex-direction: column;
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    color: #777777;
+                }
+                .icons{
+                    gap: 20px;
+display: flex;  
+                    i{
+                        color: white;
+
+font-size: 14px;
+                  }
+                }
+            }
+        }
+        .containerTwo{
+            padding: 65px 0;
+            display: flex;
+                justify-content: center;
+                align-items: center;
+            .content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: white;
+                }
+            }
+        }
+      }  
+    }
+}
+
